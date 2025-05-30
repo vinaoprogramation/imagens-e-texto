@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.descricao{
+    text-align: center;
+    font-weight: bold;
+}
+
+.conteudo-principal{
+    text-align: center;
+    background-color: green;
+}
+
+.conteudo-principal .imagens{
+    display: inline-block;
+}
+
+.conteudo-principal .imagens img{
+    display: block;
+    object-position: center;
+}
+
+.texto{
+    display: inline-block;
+    width: 100px;
+}
