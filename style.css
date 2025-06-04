@@ -1,27 +1,36 @@
-body{
-    background-color: rgb(235, 235, 235);
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black ;
 }
 
-.descricao{
+header{
     text-align: center;
-    font-weight: bold;
+    background-color: grey;
 }
 
-.conteudo-principal{
-    text-align: center;
-    background-color: green;
-}
-
-.conteudo-principal .imagens{
-    display: inline-block;
-}
-
-.conteudo-principal .imagens img{
+main{
+    background-color: darkgrey;
+    width: 70%;
+    margin: auto;
     display: block;
-    object-position: center;
+    margin-top: 30px;    
+}
+
+.imagens{
+    width: 40%;
+    background-color: aliceblue;
+    display: inline-block   ;
+
+}
+
+img{
+    width: 200px;
+    display: block;
 }
 
 .texto{
-    display: inline-block;
-    width: 100px;
+    display: inline;
+    width: 30%;
+    background-color: aqua;
 }
