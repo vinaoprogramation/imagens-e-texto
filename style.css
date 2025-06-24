@@ -1,36 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: 1px solid black ;
 }
 
 header{
-    text-align: center;
-    background-color: grey;
+    box-sizing: border-box;
+    padding: 50px;
 }
 
-main{
-    background-color: darkgrey;
-    width: 70%;
-    margin: auto;
-    display: block;
-    margin-top: 30px;    
-}
+.principal{
 
-.imagens{
-    width: 40%;
-    background-color: aliceblue;
-    display: inline-block   ;
-
-}
-
-img{
-    width: 200px;
-    display: block;
-}
-
-.texto{
-    display: inline;
-    width: 30%;
-    background-color: aqua;
 }
